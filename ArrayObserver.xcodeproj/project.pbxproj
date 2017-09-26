@@ -89,15 +89,15 @@
 			children = (
 				8458457119352FF9008FFE77 /* AppDelegate.h */,
 				8458457219352FF9008FFE77 /* AppDelegate.m */,
-				8458457419352FF9008FFE77 /* Main.storyboard */,
-				8458457719352FF9008FFE77 /* ViewController.h */,
-				8458457819352FF9008FFE77 /* ViewController.m */,
-				8458457A19352FF9008FFE77 /* Images.xcassets */,
-				8458456919352FF9008FFE77 /* Supporting Files */,
 				845DE94E1B17B7C30018DA91 /* ArrayObserver.h */,
 				845DE94F1B17B7C30018DA91 /* ArrayObserver.m */,
+				8458457A19352FF9008FFE77 /* Images.xcassets */,
+				8458457419352FF9008FFE77 /* Main.storyboard */,
+				8458456919352FF9008FFE77 /* Supporting Files */,
 				84FFA13C1B1E272F003A5B09 /* UIImage+BackgroundImage.h */,
 				84FFA13D1B1E272F003A5B09 /* UIImage+BackgroundImage.m */,
+				8458457719352FF9008FFE77 /* ViewController.h */,
+				8458457819352FF9008FFE77 /* ViewController.m */,
 			);
 			path = ArrayObserver;
 			sourceTree = "<group>";
@@ -289,6 +289,7 @@
 				GCC_PREFIX_HEADER = "ArrayObserver/ArrayObserver-Prefix.pch";
 				INFOPLIST_FILE = "ArrayObserver/ArrayObserver-Info.plist";
 				PRODUCT_NAME = ArrayObserver;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -302,6 +303,7 @@
 				GCC_PREFIX_HEADER = "ArrayObserver/ArrayObserver-Prefix.pch";
 				INFOPLIST_FILE = "ArrayObserver/ArrayObserver-Info.plist";
 				PRODUCT_NAME = ArrayObserver;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
